@@ -1,15 +1,17 @@
 import './App.css'
 //import { List } from './components/List'
-import { Button } from './components/Button'
+// { Button } from './components/Button'
 //import { WapperList } from './components/WrapperList'
+import { RandomComponent } from './components/RandomComponent';
 
 function App() {
-  const buttonText = "Count: ";
 
   return (
     <>
-      <h1>Evaluacion Q3</h1>
-      <Button text={buttonText}/>
+      <div className="App">
+      <h1>Evaluacion Q4</h1>
+      <RandomComponent/>
+    </div>
     </>
   )
 }
