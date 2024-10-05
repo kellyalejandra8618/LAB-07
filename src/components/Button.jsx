@@ -1,17 +1,16 @@
 import { useState } from "react";
 
-export const Button = props => {
-    const { text } = props;
-    
+export const Button = () => {
+
     const[count, setCount] = useState(0);
 
     function handlerButton(){
-        setCount(count + 1);
+        setCount(count + 5);
     }
 
     return(
         <button onClick={handlerButton}>
-           {text} {count}
+           {count}
         </button>
     );
 }
