@@ -1,23 +1,18 @@
 import './App.css'
-import { List } from './components/List'
-//import { Button } from './components/Button'
-import { WapperList } from './components/WrapperList'
+//import { List } from './components/List'
+// { Button } from './components/Button'
+//import { WapperList } from './components/WrapperList'
+//import { RandomComponent } from './components/RandomComponent';
+import { CompWithProps } from './components/CompWithProps'
 
 function App() {
 
-  //const buttonText = "Count : ";
-  //<h1>LABORATORIO 4</h1>
-  //<Button text={buttonText}/>
-
   return (
     <>
-      <WapperList>
-        <ul>
-          <li> Pan </li>
-          <li> Queso </li>
-          <li> Mantequilla </li>
-        </ul>  
-      </WapperList>
+      <div className="App">
+        <h1>HOLA DESDE VITE</h1>
+        <CompWithProps title="Count : 13" />
+      </div>
     </>
   )
 }
