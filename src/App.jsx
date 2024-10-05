@@ -1,23 +1,17 @@
 import './App.css'
-import { List } from './components/List'
-//import { Button } from './components/Button'
-import { WapperList } from './components/WrapperList'
+//import { List } from './components/List'
+// { Button } from './components/Button'
+//import { WapperList } from './components/WrapperList'
+import { RandomComponent } from './components/RandomComponent';
 
 function App() {
 
-  //const buttonText = "Count : ";
-  //<h1>LABORATORIO 4</h1>
-  //<Button text={buttonText}/>
-
   return (
     <>
-      <WapperList>
-        <ul>
-          <li> Pan </li>
-          <li> Queso </li>
-          <li> Mantequilla </li>
-        </ul>  
-      </WapperList>
+      <div className="App">
+      <h1>Evaluacion Q4</h1>
+      <RandomComponent/>
+    </div>
     </>
   )
 }
